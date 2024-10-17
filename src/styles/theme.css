@@ -1,0 +1,24 @@
+:root {
+    --ifm-h1-font-size: 2rem;
+    --ifm-h2-font-size: 1.5rem;
+    --ifm-h3-font-size: 1.25rem;
+    --ifm-h4-font-size: 1rem;
+    --ifm-h5-font-size: 0.875rem;
+    --ifm-h6-font-size: 0.85rem;
+
+    --ifm-global-spacing: 1rem;
+    --ifm-spacing-vertical: var(--ifm-global-spacing);
+
+    --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans,
+    sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    --ifm-font-weight-bold: 700;
+
+    --ifm-heading-font-family: var(--ifm-font-family-base);
+    --ifm-heading-font-weight: var(--ifm-font-weight-bold);
+    --ifm-heading-line-height: 1.25;
+
+    --ifm-heading-margin-bottom: var(--ifm-spacing-vertical);
+
+}

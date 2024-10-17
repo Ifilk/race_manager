@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    font: 1400 var(--ifm-h4-font-size) / var(--ifm-heading-line-height) var(--ifm-font-family-base);
+    margin-bottom: var(--ifm-heading-margin-bottom);
+}
