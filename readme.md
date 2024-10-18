@@ -100,3 +100,7 @@ getAllTeams() -> Team[]
 /races             比赛管理页面
 /races/:uid        比赛详情页面 （参数uid：race的uid）
 ```
+
+## 演示
+
+![image](https://smms.app/image/gdoDjOJb1HutBFf)
