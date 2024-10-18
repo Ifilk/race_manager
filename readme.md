@@ -103,4 +103,9 @@ getAllTeams() -> Team[]
 
 ## 演示
 
-![image](https://smms.app/image/gdoDjOJb1HutBFf)
+登录页面
+![image.png](https://s2.loli.net/2024/10/19/43JqaIukTpwhzQ6.png)
+管理页面
+![image.png](https://s2.loli.net/2024/10/19/OIJPRAq4XrLz53h.png)
+详情页面
+![image](https://s2.loli.net/2024/10/19/gdoDjOJb1HutBFf.png)
