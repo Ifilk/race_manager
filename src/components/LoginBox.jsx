@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import {InputGroup} from "react-bootstrap";
 import {useRef} from "react";
+import {useNavigate} from "react-router"
 
 export function LoginBox(props) {
     const uname_input = useRef();
@@ -16,6 +17,11 @@ export function LoginBox(props) {
 
         // eslint-disable-next-line react/prop-types
         props.onSubmit(p);
+    }
+
+    const navigate = useNavigate();
+    const handleRegister = () => {
+        navigate('/register');
     }
 
     return (
@@ -55,6 +61,7 @@ export function LoginBox(props) {
 
                 <Modal.Footer>
                     <Button variant="primary" onClick={submit}>Login</Button>
+                    <Button variant="secondary" onClick={handleRegister}>注册</Button>
                 </Modal.Footer>
             </Modal.Dialog>
         </div>
