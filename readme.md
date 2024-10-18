@@ -11,8 +11,11 @@ tyarn                         #安装依赖文件
 - [x] 假数据生成
 - [x] 假Api
 - [x] 登录页面
-- [ ] 比赛管理页面
-- [ ] 比赛详情页面
+- [x] 注册页面
+- [x] 比赛管理页面
+- [x] 比赛详情页面
+- [ ] 管理页面跳转详情页面(目前只能url)
+- [ ] css完善
 
 ## 文件结构
 ```
@@ -24,8 +27,12 @@ tyarn                         #安装依赖文件
 |   |   +-- github_logo.jsx
 |   |   +-- Header.jsx             #页头组件
 |   |   +-- LoginBox.jsx           #登录组件
+|   |   +-- Register.jsx           #注册组件
+|   |   +-- RaceManagementBox.jsx  #比赛管理组件
+|   |   +-- RaceDetailBox.jsx      #比赛详情项组件
 |   +-- _pages             #页面文件夹
 |   |   +-- LoginPage.jsx          #登录页面
+|   |   +-- RegisterPage.jsx       #注册页面
 |   |   +-- RaceDetailPage.jsx     #比赛详情页面
 |   |   +-- RaceManagementPage.jsx #比赛管理页面
 |   +-- _styles            #css文件夹

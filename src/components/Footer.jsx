@@ -15,6 +15,8 @@ export default function Footer() {
                 <Row className="justify-content-md-center ">
                     <Col md="auto" className="align-content-center">
                         Ifilk<GitHubLogo /><a href="https://github.com/Ifilk">github</a>
+                        <br/>
+                        the-bule-sea<GitHubLogo /><a href="https://github.com/the-bule-sea">github</a>
                     </Col>
                 </Row>
             </Container>

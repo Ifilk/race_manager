@@ -6,12 +6,20 @@ export function getMemberByUid(uid){
     return members.filter(member => member.uid === uid)[0];
 }
 
+export function getMembersByUids(uids){
+    return members.filter(member => uids.includes(member.uid));
+}
+
 export function getRaceByUid(uid){
     return races.filter(race => race.uid === uid)[0];
 }
 
 export function getTeamByUid(uid){
     return teams.filter(team => team.uid === uid)[0];
+}
+
+export function getTeamsByUids(uids){
+    return teams.filter(team => uids.includes(team.uid));
 }
 
 export function getAllRaces(){
