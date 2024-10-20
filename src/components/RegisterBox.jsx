@@ -20,6 +20,7 @@ export default function RegisterBox(props) {
     }
 
     return (
+        // 模态框（Modal）是覆盖在父窗体上的子窗体。
         <div className="modal show" style={{display: 'block', position: 'initial'}}>
         <Modal.Dialog>
             <Modal.Header>

@@ -8,7 +8,10 @@ export default function RaceDetailBox({ race, members, teams }) {
     const participantMembersUids = teams.flatMap(team => team.members);
     // 根据 UID 获取对应的成员
     const participantMembers = getMembersByUids(participantMembersUids);
-
+    // 内边距（pading）外边距（margin）
+    // mt-3：上外边距为3
+    // 卡片（card）组件
+    // card-body：卡片主体; card-title：卡片标题; card-text：卡片文本
     return (
         <div>
             <div className="card mt-3">
